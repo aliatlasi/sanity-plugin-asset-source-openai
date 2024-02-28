@@ -9,8 +9,9 @@ async function fetchImage(prompt: string, API_KEY: string) {
 
   const raw = JSON.stringify({
     prompt,
+    model:"dall-e-3",
     n: 1,
-    size: '512x512',
+    size: "1024x1024",
     // eslint-disable-next-line camelcase
     response_format: 'b64_json',
   })
