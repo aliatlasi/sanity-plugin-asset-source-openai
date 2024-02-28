@@ -24,7 +24,6 @@ async function fetchImage(prompt: string, API_KEY: string) {
       redirect: 'follow',
     })
   ).json()
-
   return response.data
 }
 

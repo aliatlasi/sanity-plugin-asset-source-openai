@@ -57,4 +57,3 @@ yalc.lock
 *.tgz
 
 # Compiled plugin
-dist
